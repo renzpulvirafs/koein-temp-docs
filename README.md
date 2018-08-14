@@ -1,7 +1,17 @@
 # Temporary Documentation for components
 
 #### Custom select
-
+```html
+<div class="c-select"> <!-- Custom Select Wrapper -->
+  <span class="dropdown-control"> <!-- Dropdown-icon -->
+    <i class="fa fa-chevron-down"></i>
+  </span>
+  
+  <select class="basic-select" name="" id=""> <!-- Basic styled select -->
+    <option value="">Facebook</option>
+  </select>
+</div>
+```
 
 #### Custom select with input
 
