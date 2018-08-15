@@ -1,5 +1,14 @@
 # Temporary Documentation for components
 
+#### Input
+```html
+<input class="basic-input">
+```
+
+##### Example
+![input](https://user-images.githubusercontent.com/42379594/44150827-406b4ccc-a0d3-11e8-9c1f-d00438f63ab7.png)
+
+
 
 #### Checkbox
 By default the `<input>` tag is hidden from the user
@@ -12,6 +21,7 @@ so we can show our own customized/styled checkbox.
 ```
 ##### Example
 ![checkbox](https://user-images.githubusercontent.com/42379594/44149872-288cdfc4-a0d0-11e8-8f7c-9e1ea9014d1a.png)
+
 
 
 #### Custom select
@@ -29,6 +39,7 @@ so we can show our own customized/styled checkbox.
 
 ##### Example
 ![select](https://user-images.githubusercontent.com/42379594/44150828-41e2358e-a0d3-11e8-9222-5578391690c6.png)
+
 
 
 #### Custom select with input
