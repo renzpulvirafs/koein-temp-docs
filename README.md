@@ -1,4 +1,4 @@
-# Temporary Documentation for components
+# Koein component cheatsheet
 
 #### Input
 ```html
