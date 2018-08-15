@@ -1,4 +1,4 @@
-# Koein component cheatsheet
+# Koein custom component cheatsheet
 
 #### Input
 ```html
