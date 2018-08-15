@@ -1,5 +1,19 @@
 # Temporary Documentation for components
 
+
+#### Checkbox
+By default the `<input>` tag is hidden from the user
+so we can show our own customized/styled checkbox.
+```html
+<label class="checkbox-container">Yes·
+  <input type="checkbox" checked="checked">
+  <span class="checkmark"></span>
+</label>                                    
+```
+##### Example
+![checkbox](https://user-images.githubusercontent.com/42379594/44149872-288cdfc4-a0d0-11e8-8f7c-9e1ea9014d1a.png)
+
+
 #### Custom select
 ```html
 <div class="c-select"> <!-- Custom Select Wrapper -->
@@ -12,6 +26,10 @@
   </select>
 </div>
 ```
+
+##### Example
+![select](https://user-images.githubusercontent.com/42379594/44150828-41e2358e-a0d3-11e8-9222-5578391690c6.png)
+
 
 #### Custom select with input
 
