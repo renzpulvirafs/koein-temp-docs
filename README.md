@@ -45,36 +45,31 @@ so we can show our own customized/styled checkbox.
 #### Custom select with input
 
 ```html
-<!-- Components must be wrapped with row class -->
-<div class="row">
-  
-  <!-- Column for select component -->
-  <div class="col-sm-3 select-col">
-    <label class="def-label" for="">
-      <div class="c-select">
-
-        <!-- fontawesome dropdown icon -->
-        <span class="dropdown-control">
-          <i class="fa fa-chevron-down"></i>
-        </span>
-
-        <!-- Basic Styled Select(Extended by the button compo.) -->
-        <select class="basic-select" name="" id="">
-          <option value="">Facebook</option>
-        </select>
-
+<!-- Components must be wrapped with row class and sel-put class-->
+<div class="row sel-put">
+  <div class="col-sm-6 remove-p-r">
+    <div class="row">
+      <div class="form__controls col-sm-3 pr-0 select-col">
+        <label class="def-label" for="">Social Media
+          <div class="c-select">
+            <span class="dropdown-control">
+              <i class="fa fa-chevron-down"></i>
+            </span>
+            <select class="selput-select border-right-0" name="" id="">
+              <option value="">Facebook</option>
+            </select>
+          </div>
+        </label>
       </div>
-    </label>
+      <div class="form__controls col-sm-9 pl-0 input-col">
+        <label class="def-label" for="">&nbsp;
+          <input class="basic-input" type="text">
+        </label>
+      </div>
+    </div>
   </div>
-
-  <!-- Column for input component -->
-  <div class="col-sm-9 input-col">
-    <label class="def-label" for="">&nbsp;
-
-      <!-- Basic Style for input -->
-      <input class="basic-input" type="text">
-    </label>
-  </div>
-
 </div>
 ```
+
+##### Example
+![select-with-input](https://user-images.githubusercontent.com/42379594/44152383-fd56815e-a0d7-11e8-81b6-b333f6705267.png)
